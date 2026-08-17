@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anguocyf.github.io/phd-thesis/sitemap.xml
