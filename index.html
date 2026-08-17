@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A coupled complexity framework for graph construction and representation learning in spatio-temporal complex systems</title>
+  <meta name="description" content="PhD thesis by Yifan Chen, University of Nottingham, 2026. Full abstract and link to the official University of Nottingham repository record.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://anguocyf.github.io/phd-thesis/">
+
+  <!-- Google Scholar / Highwire Press metadata -->
+  <meta name="citation_title" content="A coupled complexity framework for graph construction and representation learning in spatio-temporal complex systems">
+  <meta name="citation_author" content="Yifan Chen">
+  <meta name="citation_publication_date" content="2026/07/25">
+  <meta name="citation_dissertation_institution" content="University of Nottingham">
+  <meta name="citation_publisher" content="University of Nottingham">
+  <meta name="citation_language" content="en">
+  <meta name="citation_abstract_html_url" content="https://anguocyf.github.io/phd-thesis/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="A coupled complexity framework for graph construction and representation learning in spatio-temporal complex systems">
+  <meta property="og:description" content="PhD thesis by Yifan Chen, University of Nottingham, 2026.">
+  <meta property="og:url" content="https://anguocyf.github.io/phd-thesis/">
+
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #556575;
+      --accent: #005597;
+      --accent-dark: #003f71;
+      --paper: #ffffff;
+      --wash: #f4f7fa;
+      --line: #dce4eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--wash);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.68;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(28px, 6vw, 72px);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-top: 6px solid var(--accent);
+      box-shadow: 0 18px 50px rgba(23, 33, 43, 0.08);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+
+    .byline {
+      margin: 24px 0 6px;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .details {
+      margin: 0;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 30px 0 42px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 16px;
+      color: #fff;
+      background: var(--accent);
+      border-radius: 4px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .button:focus { background: var(--accent-dark); }
+
+    .button.secondary {
+      color: var(--accent);
+      background: #eaf2f8;
+    }
+
+    h2 {
+      margin: 42px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.55rem;
+    }
+
+    .abstract p { margin: 0 0 1.05em; }
+
+    .citation {
+      padding: 18px;
+      background: var(--wash);
+      border-left: 4px solid var(--accent);
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 44px;
+      padding-top: 20px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+    }
+
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <header>
+        <p class="eyebrow">PhD thesis · 2026</p>
+        <h1>A coupled complexity framework for graph construction and representation learning in spatio-temporal complex systems</h1>
+        <p class="byline">Yifan Chen</p>
+        <p class="details">University of Nottingham · PhD thesis · 25 July 2026</p>
+
+        <nav class="actions" aria-label="Thesis links">
+          <a class="button" href="https://repository.nottingham.ac.uk/handle/123456789/81992">Official repository record</a>
+          <a class="button secondary" href="https://repository.nottingham.ac.uk/bitstreams/3fa4785f-7cfb-4d60-839f-bd41d148c721/download">Download the full thesis (PDF, 28.7 MB)</a>
+        </nav>
+      </header>
+
+      <section class="abstract" aria-labelledby="abstract-heading">
+        <h2 id="abstract-heading">Abstract</h2>
+        <p>The analysis of spatio-temporal complex systems presents a critical challenge across scientific and engineering domains. Graph-based methods have emerged as a powerful paradigm to model the relational dependencies inherent in these systems. The efficacy of this paradigm relies on two critical stages: Graph Construction and Graph Representation Learning (GRL). However, a fundamental “meta-gap” persists: current research often treats these deeply interdependent stages as isolated, fragmented problems. This fragmented methodology creates a significant bottleneck, limiting analytical performance and robustness.</p>
+
+        <p>The proposed Coupled Complexity Framework resolves the identified methodological gap. It functions as a systematic analytical lens by decomposing the overarching challenge into two interconnected components. The first component is Structural Complexity. It represents the challenge of creating high fidelity graph structures from raw data. The thesis addresses the static category of this complexity using the A-SSGC method. It captures latent spatial dependencies rooted in physicochemical properties by synergistically fusing multiple similarity measures. Furthermore, A-SSGC employs a degree guided sparsification strategy to accurately model spatial relations. The SF-DynFinGC model addresses dynamic structural complexity in evolving systems. It accommodates irregular temporal dynamics through an event triggered update mechanism. Simultaneously, it employs a decay-governed edge selection strategy with scale-free regularisation to enforce domain-specific topological priors. The second component is Informational Complexity. This involves the challenge of extracting meaningful patterns from the constructed structures. LG-VGAE resolves the analytical trade off between local and global information. It integrates beta wavelet filtering to capture local spectral dynamics and contrastive learning to preserve global structural coherence within a symmetric variational framework. Finally, the Multi-DGI model enhances the discriminative power of the learned representations. It utilises an adaptive multi-head pooling mechanism to capture comprehensive spatio-temporal summaries within a contrastive learning framework.</p>
+
+        <p>Extensive empirical validation was conducted across diverse spatio-temporal complex systems. The results demonstrate the superior performance of the proposed methods. The principal contribution of this work is the establishment of the Coupled Complexity Framework. It successfully bridges the theoretical and practical divide between graph construction and representation learning. Consequently, this research promotes a vital paradigm shift from isolated tool development towards holistic framework based thinking.</p>
+      </section>
+
+      <section aria-labelledby="citation-heading">
+        <h2 id="citation-heading">Suggested citation</h2>
+        <p class="citation">Chen, Yifan. <em>A coupled complexity framework for graph construction and representation learning in spatio-temporal complex systems</em>. PhD thesis, University of Nottingham, 2026. <a href="https://repository.nottingham.ac.uk/handle/123456789/81992">https://repository.nottingham.ac.uk/handle/123456789/81992</a></p>
+      </section>
+
+      <footer>
+        <p>This page provides a crawlable bibliographic record and complete author-written abstract. The authoritative thesis record and full-quality PDF remain hosted by the University of Nottingham Repository.</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
